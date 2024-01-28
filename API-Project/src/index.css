@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.widget:nth-child(odd){
+background-color: #000;
+color: #fff;
+}
+.widget{
+    box-shadow: 5px 4px 50px 0 rgba(0,0,0,.08);
+    -webkit-box-shadow: 5px 4px 50px 0 rgba(0,0,0,.08);
+    -o-box-shadow: 5px 4px 50px 0 rgba(0,0,0,.08);
+    -moz-box-shadow: 5px 4px 50px 0 rgba(0,0,0,.08);
+}
