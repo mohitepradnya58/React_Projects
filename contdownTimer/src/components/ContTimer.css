@@ -1,0 +1,67 @@
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.input-field {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.timer-display {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.start-btn {
+  background-color: #28a745;
+}
+
+.pause-btn {
+  background-color: #ffc107;
+}
+
+.reset-btn {
+  background-color: #dc3545;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.end-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: red;
+  font-weight: bold;
+}
